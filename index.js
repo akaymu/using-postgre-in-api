@@ -6,12 +6,12 @@ pool
     host: 'localhost',
     port: 5432,
     database: 'socialnetwork',
-    user: 'sg',
+    user: 'akaymu',
     password: '',
   })
   .then(() => {
-    app().listen(3005, () => {
-      console.log('Listening on port 3005');
+    app().listen(3006, () => {
+      console.log('Listening on port 3006');
     });
   })
   .catch((err) => console.error(err));
